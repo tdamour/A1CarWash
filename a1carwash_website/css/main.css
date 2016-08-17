@@ -1,0 +1,310 @@
+/*A1 Carwash Main Content CSS Page: applies to the content of each webpage*/
+
+/************************************
+    Content Page: Home
+*************************************/
+/*css for the content of the homepage*/
+#content_area{
+  margin: 0 20px 20px;
+  padding-top:20px;
+  padding-left:45px;
+}
+
+#home_content{
+  background-color: #FFF;
+  width: 100%;
+  overflow:hidden;
+  margin-left: -30px;
+  border-radius: 7px;
+  -moz-border-radius: 0px 0px 7px 7px;;
+  -webkit-border: 0px 0px 7px 7px;
+  border: 3px solid black;
+}
+
+#side_content{
+  margin: 20px 75px 0 10px; /* Top Right Bottom Left */
+  width: 280px;
+  padding: 0 0 0 95px;
+}
+
+#sidebar {
+  float:right;
+  width: 190px;
+  padding: 25px 150px 0 0px;
+  margin: 10px 0;
+}
+
+#sidebar h2 {
+	padding-left: 40px; 
+}
+
+#sidebar img{
+	margin: 10px 0;
+}
+
+section{
+  width: 600px;
+  margin: 0 0 10px 10px;
+  padding: 2em 0 0 2.5em;
+  float: left;
+}
+
+section h2 {
+  padding: 15px 0 0 0;
+}
+
+/*Code for the Helping the community stories on the Home page */
+#story img{
+  float: left;
+  padding-left: 3em;
+  padding-right: 5em;
+  padding-top: 0;
+}
+
+#story p{
+  float: left;
+  padding-top: 1em;
+  margin-bottom: 3em;
+}
+
+#story{
+  width: 700px;
+  clear: both;
+  margin-top: 4em;
+}
+
+/*Code for the SlideShow on the Home Page*/
+#billboard{
+  margin: 0 auto 20px;
+  /* padding: 0 0 0 260px;*/
+  padding-top: 20px;
+  width: 800px;
+}
+
+.slideshow{
+  height: 400px;
+  float: left;
+  margin-bottom:10px;
+  margin-top: 10px;
+  border: 2px solid black;
+}
+
+/* styling for the slideshow on the homepage */
+ul.slideshow {
+  list-style: none;
+  width: 800px;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+  margin: 0;
+}
+
+ul.slideshow li {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  right: 0;
+}
+
+ul.slideshow li.show {
+  z-index: 500;
+}
+
+ul img {
+  border: none;
+}
+
+#slideshow-caption {
+  width: 800px;
+  height: 38px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 500;
+}
+
+#slideshow-caption .slideshow-caption-container {
+  padding: 10px 25px 10px 25px;
+  background: transparent url(../img/transparent.png) repeat;
+  z-index: 1000;
+  width: 800px;
+}
+
+#slideshow-caption p {
+  padding: 0;
+  font: normal 130% arial, sans-serif;
+  color: #FFF;
+  text-shadow: 1px 1px #000;
+}
+
+/************************************
+    Content Page: Locations
+*************************************/
+/*css for the content of the locations page*/
+#location_content{
+background-color: #FFF;
+  /*width: 98%;*/
+  /*margin-left:-3px; 
+  margin-top:20px; */ 
+  margin-top: 40px; 
+  padding:15px 15px 25px 15px; 
+  overflow:hidden;
+  border-radius: 7px;
+  -moz-border-radius: 0px 0px 7px 7px;;
+  -webkit-border: 0px 0px 7px 7px;
+  border: 3px solid black;
+} 
+
+#location_individual {
+ 	margin: 4em;
+ 	clear: both;
+}
+
+#location_individual img{
+  float: left;
+  padding-left: 3em;
+  padding-right: 5em;
+  padding-top: 0;
+  margin-bottom: 3em;
+}
+
+#location_individual p{
+  float: left;
+  padding-top: 1em;
+}
+
+/************************************
+    Content Page: Products
+*************************************/
+/*css for the content of the products page*/
+#products_content{
+background-color: #FFF;
+  width: 100%;
+  margin-left:-40px; 
+  margin-top:40px;  
+  padding:15px 15px 25px 15px; 
+  overflow:hidden;
+  border-radius: 7px;
+  -moz-border-radius: 0px 0px 7px 7px;;
+  -webkit-border: 0px 0px 7px 7px;
+  border: 3px solid black;
+} 
+
+#center_products{
+	margin:0 20px 20px 150px;
+	padding:15px 15px 15px 25px; 
+}
+
+#product_headline{
+	margin-top:5px; 
+	padding-top:5px; 
+	text-align:center; 
+}
+
+
+
+.left{
+	float:left;
+	width: 480px; 
+}
+.right{
+	float:right;
+	width:480px; 
+}
+.imgsize{
+	width:275px;
+	height:275px; 
+}
+
+
+
+/************************************
+    Content Page: Services
+*************************************/
+/*css for the content of the services page*/
+#service_content{
+background-color: #FFF;
+  /*width: 98%;*/
+  /*margin-left:-3px; 
+  margin-top:20px; */ 
+  /*padding:15px 15px 25px 15px; */
+ padding: 40px;
+  overflow:hidden;
+  border-radius: 7px;
+  -moz-border-radius: 0px 0px 7px 7px;;
+  -webkit-border: 0px 0px 7px 7px;
+  border: 3px solid black;
+} 
+
+#service_images img{
+	margin: 80px 50px 10px 10px;
+	float: right;
+	border: 3px solid black;
+
+}
+
+#service_option{
+	margin: 3em 1em;
+}
+
+/************************************
+    Content Page: About Us
+*************************************/
+/*css for the content of the About Us page*/
+
+#about_content{
+  /*background-color:#fff;
+  margin-top: 20px;
+  margin-bottom: 20px;*/
+  
+  background-color: #FFF;
+  width: 100%;
+  margin-left: -100px;
+  /*margin-left:-3px; 
+  margin-top:20px; */ 
+  /*padding:15px 15px 25px 15px; */
+ padding: 40px;
+  overflow:hidden;
+  border-radius: 7px;
+  -moz-border-radius: 0px 0px 7px 7px;;
+  -webkit-border: 0px 0px 7px 7px;
+  border: 3px solid black;
+}
+
+/*#about_content section{
+  margin-top: 20px;
+  margin-bottom:20px;
+}*/
+
+#about_images {
+	margin-top:10px;
+	/*margin: 40px 15px;*/
+	float:right;
+	margin-left: 10px;
+	margin-right:10px;
+	width: 30%;
+}
+#about_images img {
+	margin-top:16px;
+	border: 2px solid black;
+}
+
+
+
+/************************************
+    Content Page: Php pages
+*************************************/
+/*css for the content of the php pages*/
+#allPhp_content{
+background-color: #FFF;
+  /*width: 98%;*/
+  /*margin-left:-3px; 
+  margin-top:20px; */ 
+  padding:15px 15px 25px 15px; 
+  overflow:hidden;
+  border-radius: 7px;
+  -moz-border-radius: 0px 0px 7px 7px;;
+  -webkit-border: 0px 0px 7px 7px;
+  border: 3px solid black;
+} 

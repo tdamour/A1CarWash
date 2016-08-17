@@ -1,0 +1,30 @@
+/*A1 CarWash Media Queries */
+/*Mobile.css*/ 
+
+/*Phones, HandHelds -- Portraits*/ 
+@media only screen and (min-width: 320px) and (max-width: 479px){ 
+
+
+
+ }
+
+ /*Phones, HandHelds -- Landscapes*/
+ 
+@media only screen and (min-width: 480px) and (max-width: 767px){ 
+
+
+
+ }
+/*Tablets,Pads -- Potraits*/ 
+@media only screen and (min-width: 768px) and (max-width: 991px){ 
+
+
+
+ }
+
+ /*Tablets-Landscapes & Desktops*/ /*this will be our usual & original mode*/ 
+@media only screen and (min-width: 992px) and (max-width: 1999px){ 
+
+
+
+ }

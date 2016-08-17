@@ -1,0 +1,186 @@
+/* A1 CarWash Main CSS Style Page */
+/*applies to the general style of the website, such as body, header,footer*/
+
+/************************************
+  General Code for the Web Site
+*************************************/
+*{
+  margin: 0;
+  padding:0;
+}
+
+body{
+  font-family:  Helvetica, sans-serif;
+  width: 90%;
+  margin: 0 auto;
+  padding:0;
+  background-color: #99ccff;
+  /*border: 3px solid black;*/
+  background-image: url("../img/landscape2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+ /*font-family: 'Walkway';
+ src: url("css/walkway/Walkway Bold.ttf");*/
+}
+
+p{
+  padding: 0 0 10px 0;
+  color: black;
+  line-height: 1.7em;
+  font-size: 100%
+}
+
+img{
+  border: 0;
+}
+
+h1, h2, h3, h4{
+  color:black;
+  margin-bottom: 20px;
+}
+
+ol{
+  margin: 8px 0 22px 20px;
+}
+
+ol li{
+  margin: 0 0 11px 0;
+}
+
+/************************************
+    Heading (<header> tags)
+*************************************/
+
+header img {
+  float: left;
+  margin: 5px 0 20px;
+}
+
+header {
+  width: 100%;
+  padding: 5px 0 0 0;  
+}
+
+.title{
+}
+
+header h1 {
+  padding: 0 0 0 225px;
+  font-size: 4em;
+  color:#fff; 
+  margin: 30px 0 0 0;
+  text-shadow: 5px 5px black;   
+}
+
+header p{
+  padding: 0 0 0 240px;
+  font-size:1.5em;
+  margin: 5px 0 0 0;
+  font-weight: bold;
+  color:#fff; 
+  text-shadow: 2px 2px black;  
+}
+
+#log_in{
+	float: right;
+	font-size: .5em;
+	margin: 0 1em 0 0;
+	
+}
+
+#log_in p{
+	font-weight:bold; 
+}
+
+#log_in a{
+	color:#fff;
+	text-decoration:none; 
+	font-size:1.5em;
+	
+}
+
+
+
+/************************************
+    Navigation (<nav> tags)
+*************************************/
+
+#nav_menu {
+  clear: left;
+  height: 4em;
+}
+
+#nav_menu ul {
+  list-style: none;
+  position: relative;
+}
+
+#nav_menu ul li {
+  float: left;
+  width: 20%;
+  font-weight:bold;
+}
+
+#nav_menu ul li:hover > ul {
+  display: block;
+  width: 100%; 
+}
+
+#nav_menu > ul::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+#nav_menu ul {
+  margin: 0;
+  padding: 0;
+}
+
+#nav_menu ul li a {
+  text-align: center;
+  display: block;
+  width: 100%;
+  padding: 1em 0;
+  padding-top: 2em;
+  text-decoration: none;
+  height:3em;
+  color: white;
+  background-color: blue;
+}
+
+#nav_menu ul li a.current {
+  color: yellow;
+}
+
+#nav_menu ul li a:hover, #nav_menu ul li a:focus {
+  background-color: gray;
+}
+/************************************
+    Footer(<footer> tags )
+*************************************/
+footer{
+  clear:both;
+  margin-top: 4em;
+  padding-top:.7em;
+}
+
+footer a {
+  text-decoration:none;
+  color:#fff;
+}
+
+footer a:hover{
+  color:#fff;
+}
+
+.copyright{
+  text-align: center;
+  padding:0;
+}
+
+.copyright p{
+  color: white;
+  font-weight:bold;
+  font-size:.9em;
+}
